@@ -9,8 +9,8 @@ function changeCircle(index) {
         const left =  parseInt(Math.random()*100);
         const divX = document.querySelector(`#div-${index}`); 
 
-        divX.style.top = `${top}%`;
-        divX.style.left = `${left}%`;
+        divX.style.top = `${top}vh`;
+        divX.style.left = `${left}vh`;
 
         const height = getRandomInt (20 ,300);
   
